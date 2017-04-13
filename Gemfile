@@ -14,6 +14,8 @@ gem "twitter-bootstrap-rails"
 gem 'devise'
 
 gem 'rails_12factor'
+gem 'postmark-rails', '>= 0.10.0'
+
 gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
