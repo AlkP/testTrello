@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'admin@raccoon.su'
+  default from: 'app66605959@heroku.com'
   layout 'mailer'
 end
