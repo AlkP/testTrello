@@ -120,9 +120,6 @@ GEM
     postmark (1.10.0)
       json
       rake
-    postmark-rails (0.15.0)
-      actionmailer (>= 3.0.0)
-      postmark (~> 1.10.0)
     public_suffix (2.0.5)
     puma (3.8.2)
     rack (2.0.1)
@@ -224,8 +221,9 @@ DEPENDENCIES
   jquery-rails
   letter_opener
   listen (~> 3.0.5)
+  mail
   pg
-  postmark-rails (>= 0.10.0)
+  postmark
   puma (~> 3.0)
   rails (~> 5.0.2)
   rails_12factor

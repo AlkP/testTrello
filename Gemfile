@@ -14,7 +14,8 @@ gem "twitter-bootstrap-rails"
 gem 'devise'
 
 gem 'rails_12factor'
-gem 'postmark-rails', '>= 0.10.0'
+gem 'mail'
+gem 'postmark'
 
 gem 'pg'
 
